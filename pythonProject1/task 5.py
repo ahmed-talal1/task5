@@ -93,6 +93,23 @@ test2 = "zakaria"
 test3 = "A war at Tarawa"
 test4 = "madam"
 
+string = test1
+mid = int(len(string) / 2)
+first_str = string[:]
+second_str = string[:]
+
+# symmetric
+if first_str == second_str:
+	print(string, ' is symmetrical')
+else:
+	print(string, ' is NOT symmetrical')
+
+# palindrome
+if first_str == second_str[::-1]:
+	print(string, ' is palindrome')
+else:
+	print(string, ' is NOT a palindrome')
+
 
 
 
