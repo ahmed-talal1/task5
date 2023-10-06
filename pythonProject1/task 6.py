@@ -30,6 +30,7 @@ print(my_lst)
 nums = [33,5.9,6,-43,9,7,39,0,-40]
 print(sum(nums))
 #question 7
+
 tuple1 = (4,'python','GSG',[8,3,1])
 N_tuple = tuple1 + (9,)
 print(N_tuple)
