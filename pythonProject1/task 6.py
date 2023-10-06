@@ -26,14 +26,20 @@ print(my_lst1)
 my_lst = ["GSG", "zakaria", 19, 9.8, "Omar"]
 my_lst[4], my_lst[2] = my_lst[2], my_lst[4]
 print(my_lst)
+
 #question 6
+
 nums = [33,5.9,6,-43,9,7,39,0,-40]
 print(sum(nums))
+
 #question 7
+
 tuple1 = (4,'python','GSG',[8,3,1])
 N_tuple = tuple1 + (9,)
 print(N_tuple)
+
 #question 8
+
 tuple1 = 4,'python','GSG',[8,3,1]
 tuple2 = 'java','c++',7.8
 N_tuple = tuple1 + tuple2
